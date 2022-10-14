@@ -14,6 +14,7 @@
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "plugin:jest/recommended",
+    "plugin:tailwindcss/recommended",
     "prettier"
 
   ],
@@ -28,7 +29,8 @@
     "jest",
     "jsx-a11y",
     "react",
-    "react-hooks"
+    "react-hooks",
+    "tailwindcss"
   ],
   "rules": {
     "padding-line-between-statements": [
