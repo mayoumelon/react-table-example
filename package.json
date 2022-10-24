@@ -19,6 +19,7 @@
     "prepare": "npx simple-git-hooks || :"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.13.0",
     "@tanstack/react-table": "^8.5.15",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
