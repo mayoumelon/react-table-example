@@ -1,14 +1,11 @@
-import { FC } from 'react';
+import type { FC } from 'react';
+import Providers from 'Providers';
+import IndexRoutes from './routes';
 
-const title = import.meta.env.VITE_APP_TITLE;
-console.dir(import.meta.env);
-
-const App: FC = () => {
-  return (
-    <div>
-      <h1 className="bg-red-500">{title}</h1>
-    </div>
-  );
-};
+const App: FC = () => (
+  <Providers>
+    <IndexRoutes />
+  </Providers>
+);
 
 export default App;
